@@ -15,14 +15,14 @@
 $color-sec:#3B6E97;
 $color-sec-border: #447EAD; */
 
-remove-immediately{
-    --p: #fed136; /*primary*/
-    --s: #fec810; /*hover link*/
-    --t: #fec503; /*hover border*/
-    --q: #e6b301; /*hover??*/
+/* remove-immediately{
+    --p: #fed136;
+    --s: #fec810;
+    --t: #fec503;
+    --q: #e6b301;
     --r: #22669d;
     --sb: #f3bd01;
-}
+} */
 
 :root {
   --blue: #007bff;
@@ -10097,10 +10097,10 @@ img::-moz-selection {
 }
 #mainNav .navbar-brand {
   color: var(--primary);
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-weight: 700;
   letter-spacing: 0.0625em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 #mainNav .navbar-brand img {
   height: 1.5rem;
@@ -10124,7 +10124,7 @@ img::-moz-selection {
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    font-size: 1.5em;
+    font-size: 2em;
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
@@ -10137,7 +10137,7 @@ img::-moz-selection {
     background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
